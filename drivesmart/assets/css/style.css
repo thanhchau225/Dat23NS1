@@ -1154,3 +1154,120 @@
 *{
   Box-sizing: border-box;
 }
+body {
+display: block;
+margin: 0;
+padding: 0;
+font-family: system-ui;
+font-size: 16px;
+background: #f8fcfd;
+margin-top: 20px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.comment-box .comment-list{
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px #0002;
+}
+
+.comment-session{
+  width: 650px;
+  height: auto;
+  margin:  0 auto;
+}
+.comment-list .user{
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+}
+.comment-list .user img{
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.comment-list .name{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.comment-list .day{
+  font-size: 12px;
+}
+.reply{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: #777;
+  gap: 5px;
+}
+.icon:hover{
+  color: #000;
+  cursor: pointer;
+}
+.post-comment .comment{
+  padding: 0 0 15px 58px;
+}
+.comment-box{
+  padding: 10px;
+  overflow: hidden;
+}
+.comment-box .user{
+  display: flex;
+  width: min-content;
+}
+.comment-box .image img{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.comment-box textarea{
+  background: #eee;
+  width: -webkit-fill-available;
+  height: 152px;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0000.5px #0003;
+  }
+.comment-box textarea:focus{
+  outline-color: #009cff;
+}
+.comment-box.comment-submit{
+float: right;
+padding: 6px 14px;
+border: none;
+background: #009cff;
+color: #fff;
+cursor: pointer;
+border-radius: 2px;
+}
+.comment-box.comment-submit:hover{
+background: #027ecc;
+}
+.comment-box .comment-submit{
+  float: right;
+  padding: 6px 14px;
+  border: none;
+  background: #009cff;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.comment-box .comment-submit:hover{
+  background: #027ecc;
+}
