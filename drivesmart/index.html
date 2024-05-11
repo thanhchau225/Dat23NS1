@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DT Drive - Thuê xe yêu thích của bạn</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - Liên kết font chữ của Google
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="assets\images\Blue Gold Minimalist Car Showroom Logo (6) (1).png" height="100" width="90" alt="Logo DriveSmart">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Trang chủ</a>
+          </li>
+
+          <li>
+            <a href="#featured-car" class="navbar-link" data-nav-link>Khám phá xe</a>
+          </li>
+
+          <li>
+            <a href="#about-us" class="navbar-link" data-nav-link>Về chúng tôi</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="header-contact">
+          <a href="tel:88002345678" class="contact-link">082 98 456 76</a>
+
+          <span class="contact-time">T2 - T7: 7:00 sáng - 6:00 chiều</span>
+        </div>
+
+        <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+          <ion-icon name="car-outline"></ion-icon>
+
+          <span id="aria-label-txt">Khám phá xe</span>
+        </a>
+
+      
+        <a href="login.html" class="btn user-btn" aria-label="Hồ sơ">
+          <ion-icon name="person-outline"></ion-icon>
+      </a>
+      
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Chuyển Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">Cách dễ dàng để thuê xe</h2>
+
+            <p class="hero-text">
+              Chào mừng đến với công ty cho thuê xe DT Drive.
+            </p>
+          </div>
+
+          <div class="hero-banner"></div>
+
+          <form action="" class="hero-form">
+
+            <div class="input-wrapper">
+              <label for="input-1" class="input-label">Xe, dòng xe hoặc thương hiệu</label>
+
+              <input type="text" name="car-model" id="input-1" class="input-field"
+                placeholder="Bạn đang tìm kiếm xe gì?">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-2" class="input-label">Thanh toán tối đa </label>
+
+              <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder="Ghi số tiền ">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-3" class="input-label">Năm sản xuất</label>
+
+              <input type="text" name="year" id="input-3" class="input-field" placeholder="Ghi năm sản xuất tối thiểu">
+            </div>
+
+            <button type="submit" class="btn">Tìm kiếm</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #XE NỔI BẬT
+      -->
+
+      <section class="section featured-car" id="featured-car">
+        <div class="container">
+
+          <div class="title-wrapper">
+          
+        
+            <h2 class="h2 section-title"><strong>NHỮNG XE CÓ SẴN CỦA CHÚNG TÔI</strong></h2>
+
+              
+            </a>
+          </div>
+
+          <ul class="featured-car-list">
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="assets\images\hyundai-santafe-2021-4.jpg" alt="Hyundai Santa Fe 2.2" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Hyundai Santa Fe 2.2</a>
+                    </h3>
+
+                    <data class="year" value="2023">2021</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">7 Chỗ </span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Dầu</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">12.82 km/lít</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Tự động</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>899K </strong> / ngày
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                      <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+                      <button class="btn">Thuê ngay</button>
+
+                    </div>
+      
+                  </div>
+      
+                </div>
+              </li>
+      
+              <li>
+                <div class="featured-car-card">
+      
+                  <figure class="card-banner">
+                    <img src="assets\images\toyota raize2022.webp" alt="Toyota Raize 2022" loading="lazy" width="440" height="300"
+                      class="w-100">
+                  </figure>
+      
+                  <div class="card-content">
+      
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Toyota Raize 2022</a>
+                      </h3>
+      
+                      <data class="year" value="2019">2022 </data>
+                    </div>
+      
+                    <ul class="card-list">
+      
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+      
+                        <span class="card-item-text">4 Chỗ</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+      
+                        <span class="card-item-text">Xăng</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+      
+                        <span class="card-item-text">28.011 km/lít</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+      
+                        <span class="card-item-text">Tự động</span>
+                      </li>
+      
+                    </ul>
+      
+                    <div class="card-price-wrapper">
+      
+                      <p class="card-price">
+                        <strong>699K </strong> / ngày
+                      </p>
+      
+                      <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+      
+                      <button class="btn">Thuê ngay</button>
+      
+                    </div>
+      
+                  </div>
+      
+                </div>
+              </li>
+      
+              <li>
+                <div class="featured-car-card">
+      
+                  <figure class="card-banner">
+                    <img src="assets\images\Mercedes-S450-L-Luxury-2020-2.jpg" alt="mercedes benz S450 " loading="lazy" width="440"
+                      height="300" class="w-100">
+                  </figure>
+      
+                  <div class="card-content">
+      
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">mercedes benz S450 </a>
+                      </h3>
+      
+                      <data class="year" value="2020">2021</data>
+                    </div>
+      
+                    <ul class="card-list">
+      
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+      
+                        <span class="card-item-text">4 Chỗ</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+      
+                        <span class="card-item-text">Xăng</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+      
+                        <span class="card-item-text">9,55 km/lít</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+      
+                        <span class="card-item-text">Tự động</span>
+                      </li>
+      
+                    </ul>
+      
+                    <div class="card-price-wrapper">
+      
+                      <p class="card-price">
+                        <strong>4499K </strong> / ngày
+                      </p>
+      
+                      <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+      
+                      <button class="btn">Thuê ngay</button>
+      
+                    </div>
+      
+                  </div>
+      
+                </div>
+              </li>
+      
+              <li>
+                <div class="featured-car-card">
+      
+                  <figure class="card-banner">
+                    <img src="assets\images\tuson.jpg" alt="Hyundai Tucson" loading="lazy" width="440"
+                      height="300" class="w-100">
+                  </figure>
+      
+                  <div class="card-content">
+      
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Hyundai Tucson</a>
+                      </h3>
+      
+                      <data class="year" value="2020">2021<data>
+                    </div>
+      
+                    <ul class="card-list">
+      
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+      
+                        <span class="card-item-text">4 Chỗ</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+      
+                        <span class="card-item-text">Xăng</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+      
+                        <span class="card-item-text">11.2 km/lít</span>
+                      </li>
+      
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+      
+                        <span class="card-item-text">Tự động</span>
+                      </li>
+      
+                    </ul>
+      
+                    <div class="card-price-wrapper">
+      
+                      <p class="card-price">
+                        <strong>799K </strong> / ngày
+                      </p>
+      
+                      <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+      
+                      <button class="btn">Thuê ngay</button>
+      
+                    </div>
+      
+                  </div>
+      
+                </div>
+              </li>
+      
+              <li>
+                <div class="featured-car-card">
+                    <figure class="card-banner">
+                        <img src="assets\images\mercedes c180.webp" alt="mercedes benz C180  " loading="lazy"
+                            width="440" height="300" class="w-100">
+                    </figure>
+
+                    <div class="card-content">
+                        <div class="card-title-wrapper">
+                            <h3 class="h3 card-title">
+                                <a href="#">mercedes benz C180  </a>
+                            </h3>
+                            <data class="year" value="2022">2019 </data>
+                        </div>
+
+                        <ul class="card-list">
+                            <li class="card-list-item">
+                                <ion-icon name="people-outline"></ion-icon>
+                                <span class="card-item-text">5 Người</span>
+                            </li>
+
+                            <li class="card-list-item">
+                                <ion-icon name="flash-outline"></ion-icon>
+                                <span class="card-item-text">Xăng</span>
+                            </li>
+                            <li class="card-list-item">
+                                <ion-icon name="speedometer-outline"></ion-icon>
+                                <span class="card-item-text"> 13.16 km/lít</span>
+                            </li>
+                            <li class="card-list-item">
+                                <ion-icon name="hardware-chip-outline"></ion-icon>
+                                <span class="card-item-text">Tự động</span>
+                            </li>
+                        </ul>
+
+                        <div class="card-price-wrapper">
+                            <p class="card-price">
+                                <strong>1999K </strong> / ngày
+                            </p>
+                         <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                <ion-icon name="heart-outline"></ion-icon>
+                              
+                            </button>
+                            <button class="btn">Thuê ngay</button>
+                            </div>
+                            </div>
+                            </div>
+                            </li>
+      
+                            <li>
+                              <div class="featured-car-card">
+                                  <figure class="card-banner">
+                                      <img src="assets\images\merccdes e180.webp" alt="mercedes benz e180  " loading="lazy"
+                                          width="440" height="300" class="w-100">
+                                  </figure>
+  
+                                  <div class="card-content">
+                                      <div class="card-title-wrapper">
+                                          <h3 class="h3 card-title">
+                                              <a href="#">mercedes benz E180  </a>
+                                          </h3>
+                                          <data class="year" value="2022">2021 </data>
+                                      </div>
+  
+                                      <ul class="card-list">
+                                          <li class="card-list-item">
+                                              <ion-icon name="people-outline"></ion-icon>
+                                              <span class="card-item-text">5 Người</span>
+                                          </li>
+  
+                                          <li class="card-list-item">
+                                              <ion-icon name="flash-outline"></ion-icon>
+                                              <span class="card-item-text">Xăng</span>
+                                          </li>
+                                          <li class="card-list-item">
+                                              <ion-icon name="speedometer-outline"></ion-icon>
+                                              <span class="card-item-text"> 11.68 km/lít</span>
+                                          </li>
+                                          <li class="card-list-item">
+                                              <ion-icon name="hardware-chip-outline"></ion-icon>
+                                              <span class="card-item-text">Tự động</span>
+                                          </li>
+                                      </ul>
+  
+                                      <div class="card-price-wrapper">
+                                          <p class="card-price">
+                                              <strong>2799K </strong> / ngày
+                                          </p>
+                                       <button class="btn fav-btn" aria-label="Thêm vào danh sách yêu thích">
+                                                              <ion-icon name="heart-outline"></ion-icon>
+                                            
+                                          </button>
+                                          <button class="btn">Thuê ngay</button>
+                                          </div>
+                                          </div>
+                                          </div>
+                                          </li>
+      
+            </ul>
+      
+          </div>
+        </section>
+      
+      </article>
+      
+      
+
+
+
+
+     <!-- 
+    - #Về chúng tôi 
+  -->
+
+  <section class="section get-start" id ="about-us">
+    <div class="container">
+  
+      <h2 class="h2 section-title"><strong>NHỮNG GÌ CHÚNG TÔI CUNG CẤP</strong></h2>
+  
+      <ul class="get-start-list">
+  
+        <li>
+          <div class="get-start-card">
+  
+            <div class="card-icon icon-1">
+              <ion-icon name="car-sport-outline"></ion-icon>
+            </div>
+  
+            <h3 class="card-title"><strong>Thuê ô tô</strong></h3>
+  
+            <p class="card-text">
+              Hãy thuê xe với chúng tôi, chúng tôi là công ty top 1 miền Trung Tây nguyên. Cho thuê được bảo hiểm đầy đủ hàng ngày, hàng tuần hoặc hàng tháng mà không cần tài xế.
+            </p>
+  
+          </div>
+        </li>
+  
+        <li>
+          <div class="get-start-card">
+  
+            <div class="card-icon icon-2">
+              <ion-icon name="map-outline"></ion-icon>
+            </div>
+  
+            <h3 class="card-title"><strong>Theo dõi xe GPS</strong></h3>
+  
+            <p class="card-text">
+              Thiết bị GPS được sử dụng để theo dõi phương tiện của bạn, được thiết kế để cho phép bạn theo dõi vị trí và chuyển động hoặc giám sát nơi phương tiện đang đỗ, tốc độ di chuyển, nơi phương tiện đã đến và hơn thế nữa.
+            </p>
+  
+          </div>
+        </li>
+  
+        <li>
+          <div class="get-start-card">
+  
+            <div class="card-icon icon-3">
+              <ion-icon name="trending-up-outline"></ion-icon>
+            </div>
+  
+            <h3 class="card-title"><strong>Tiêu Chuẩn Chất Lượng</strong></h3>
+  
+            <p class="card-text">
+              Chúng tôi cam kết cung cấp các dịch vụ bảo dưỡng và sửa chữa với tiêu chuẩn chất lượng cao nhất. Bằng cách này, chúng tôi đảm bảo rằng phương tiện của bạn sẽ luôn ở trạng thái tốt nhất và sẵn sàng cho mọi cuộc hành trình.
+            </p>
+  
+          </div>
+        </li>
+  
+      </ul>
+  
+    </div>
+  </section>
+  
+
+
+
+  <!-- 
+    - #BLOG
+  -->
+
+  <section class="section blog" id="blog">
+    <div class="container">
+
+      <h2 class="h2 section-title"><strong>Blog của chúng tôi</strong></h2>
+
+      <ul class="blog-list has-scrollbar">
+
+        <li>
+          <div class="blog-card">
+
+            <figure class="card-banner">
+
+              <a href="#">
+                <img src="./assets/images/blog-1.jpg" alt="Mở cửa văn phòng mới của công ty" loading="lazy"
+                  class="w-100">
+              </a>
+
+              <a href="#" class="btn card-badge">Công ty</a>
+
+            </figure>
+
+            <div class="card-content">
+
+              <h3 class="h3 card-title">
+                <a href="#">Mở cửa văn phòng mới của công ty</a>
+              </h3>
+
+              <div class="card-meta">
+
+                <div class="publish-date">
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="2022-01-14">14 Tháng 1, 2024</time>
+                </div>
+
+                <div class="comments">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                  <data value="114">114</data>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <div class="blog-card">
+      
+            <figure class="card-banner">
+      
+              <a href="#">
+                <img src="./assets/images/blog-2.jpg" alt="Những loại xe nào dễ bị tổn thương nhất" loading="lazy"
+                  class="w-100">
+              </a>
+      
+              <a href="#" class="btn card-badge">Sửa chữa</a>
+      
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3 card-title">
+                <a href="#">Những loại xe nào dễ bị tổn thương nhất</a>
+              </h3>
+      
+              <div class="card-meta">
+      
+                <div class="publish-date">
+                  <ion-icon name="time-outline"></ion-icon>
+      
+                  <time datetime="2022-01-14">14 tháng 1, 2024</time>
+                </div>
+      
+                <div class="comments">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+      
+                  <data value="114">114</data>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="blog-card">
+      
+            <figure class="card-banner">
+      
+              <a href="#">
+                <img src="./assets/images/blog-3.jpg" alt="Thống kê cho thấy tuổi trung bình là bao nhiêu" loading="lazy"
+                  class="w-100">
+              </a>
+      
+              <a href="#" class="btn card-badge">Xe hơi</a>
+      
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3 card-title">
+                <a href="#">Thống kê cho thấy tuổi trung bình là bao nhiêu</a>
+              </h3>
+      
+              <div class="card-meta">
+      
+                <div class="publish-date">
+                  <ion-icon name="time-outline"></ion-icon>
+      
+                  <time datetime="2022-01-14">14 tháng 1, 2024</time>
+                </div>
+      
+                <div class="comments">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+      
+                  <data value="114">114</data>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="blog-card">
+      
+            <figure class="card-banner">
+      
+              <a href="#">
+                <img src="./assets/images/blog-4.jpg" alt="Cần những gì khi thuê một chiếc xe?" loading="lazy"
+                  class="w-100">
+              </a>
+      
+              <a href="#" class="btn card-badge">Xe hơi</a>
+      
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3 card-title">
+                <a href="#">Cần những gì khi thuê một chiếc xe?</a>
+              </h3>
+      
+              <div class="card-meta">
+      
+                <div class="publish-date">
+                  <ion-icon name="time-outline"></ion-icon>
+      
+                  <time datetime="2022-01-14">14 tháng 1, 2024</time>
+                </div>
+      
+                <div class="comments">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+      
+                  <data value="114">114</data>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+        <li>
+          <div class="blog-card">
+      
+            <figure class="card-banner">
+      
+              <a href="#">
+                <img src="./assets/images/blog-5.jpg" alt="Quy tắc mới cho việc xử lý xe của chúng tôi" loading="lazy"
+                  class="w-100">
+              </a>
+      
+              <a href="#" class="btn card-badge">Công ty</a>
+      
+            </figure>
+      
+            <div class="card-content">
+      
+              <h3 class="h3 card-title">
+                <a href="#">Quy tắc mới cho việc xử lý xe của chúng tôi</a>
+              </h3>
+      
+              <div class="card-meta">
+      
+                <div class="publish-date">
+                  <ion-icon name="time-outline"></ion-icon>
+      
+                  <time datetime="2022-01-14">14 tháng 1, 2024</time>
+                </div>
+      
+                <div class="comments">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+      
+                  <data value="114">114</data>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+          </div>
+        </li>
+      
+      </ul>
+      
+      </div>
+      </section>
+      
+      </article>
+      </main>
+      <!-- #COMMENTS   -->
+<div class="comment-session">
+  <div class="post-comment">
+    <div class="comment-list">
+      <div class="flex">
+        <div class="user">
+          <div class="user-image"><img src="assets/images/comment1.jpg" alt=""></div>
+          <div class="user-meta">
+            <div class="name">Thanh Châu</div>
+            <div class="day">10 ngày trước</div>
+          </div>
+        </div>
+       <div class="reply">
+       <div class="lick-icon"> <ion-icon name="thumbs-up-outline"></ion-icon></div>
+      <div class="dislick-icon">  <ion-icon name="thumbs-down-outline"></ion-icon></div>
+      <div class="re-comment">Reply</div>
+       </div>
+      </div>
+      <div class="comment">
+        dagvnieahgfuroehfoehoeqfhoeqf
+      </div>
+    </div>
+<form action="" class="comment-box">
+  <div class="user">
+    <div class="image"><img src="assets/images/comment1.jpg" alt=""></div>
+    <div class="name">Thanh Châu </div>
+  </div>
+  <textarea name="comment" ></textarea>
+  <button class="comment-submit">Comment</button>
+</form>
+  </div>
+</div>
+      <!-- 
+        - #FOOTER
+      -->
+      
+      <footer class="footer">
+      <div class="container">
+      
+        <div class="footer-top">
+      
+       
+            <a href="#" class="logo">
+              <img src="./assets/images/Blue Gold Minimalist Car Showroom Logo (6) (1).png" height="100" width="90" alt="Logo DT Drive">
+            </a> 
+      
+        <p>
+              Tìm kiếm các loại xe cho thuê giá rẻ tại DT Drive. Với một đội ngũ phong phú gồm đa dạng xe, chúng tôi mang tới
+              cho khách hàng của mình một lựa chọn hấp dẫn và thú vị.
+            </p>
+          
+          </div>
+      
+        
+      
+          
+          
+          
+         
+        
+    <!-- - Liên kết tùy chỉnh của JavaScript -->
+ 
+  <script src="./assets/js/script.js"></script>
+  
+    <!-- - Liên kết của ionicons -->
+ 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
